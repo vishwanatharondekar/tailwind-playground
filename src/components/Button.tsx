@@ -7,6 +7,10 @@ export default function Button(props: any) {
       enabled: 'bg-btn-primary',
       disabled: 'bg-btn-primary-disabled',
     },
+    secondary: {
+      enabled: 'bg-btn-secondary',
+      disabled: 'bg-btn-secondary-disabled',
+    },
   };
 
   const textColors: any = {

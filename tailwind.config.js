@@ -11,34 +11,42 @@ const config= {
       height: '32px'
     },
     primary: {
+      backgroundColor: '#0074E8',
+      textColor: '#F5F5F5',
       disabled: {
         backgroundColor: '#8F8F8F',
         textColor: '#1A1A1A'
       },
+    },
+    secondary: {
       backgroundColor: '#0074E8',
-      textColor: '#F5F5F5'
+      textColor: '#F5F5F5',
+      disabled: {
+        backgroundColor: '#8F8F8F',
+        textColor: '#1A1A1A'
+      },
     },
   }
 };
 
-// config.btn.primary.disabled.backgroundColor
+// // config.btn.primary.disabled.backgroundColor
 
 
-const op = {
-  backgroundColor: {
-    'btn-primary-disabled': {
-      DEFAULT: '#0074E8',
-      disabled: 'gray',
-      hover: 'blue',
-    },
-  },
-  textColor: {
-    'btn-primary' : {
-      DEFAULT: '#F5F5F5',
-      disabled: 'white',
-    }
-  },
-}
+// const op = {
+//   backgroundColor: {
+//     'btn-primary-disabled': {
+//       DEFAULT: '#0074E8',
+//       disabled: 'gray',
+//       hover: 'blue',
+//     },
+//   },
+//   textColor: {
+//     'btn-primary' : {
+//       DEFAULT: '#F5F5F5',
+//       disabled: 'white',
+//     }
+//   },
+// }
 
 
 let finalConfig = {
